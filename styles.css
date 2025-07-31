@@ -54,8 +54,8 @@ a:visited {
     gap: 2vw;
 }
 #nav-wrapper a:not(#cur-page){
-    border-bottom: 2px solid var(--border-unfocused);
-    border-top: 2px solid var(--border-unfocused);
+    border-bottom: 0.138vw solid var(--border-unfocused);
+    border-top: 0.138vw solid var(--border-unfocused);
     color: var(--text-unfocused);
     cursor: pointer;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -64,13 +64,13 @@ a:visited {
     transition: 0.4s;
 }
 #nav-wrapper a:not(#cur-page):hover {
-    border-bottom: 2px solid;
-    border-top: 2px solid;
+    border-bottom: 0.138vw solid;
+    border-top: 0.138vw solid;
     color: var(--text);
 }
 #cur-page {
-    border-bottom: 2px solid;
-    border-top: 2px solid;
+    border-bottom: 0.138vw solid;
+    border-top: 0.138vw solid;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     padding: 0.9vw 0;
@@ -92,7 +92,7 @@ a:visited {
         rgba(222, 199, 245, 0.7)) 1;
 }
 #body-wrapper a {
-    border-bottom: 2px solid var(--border-unfocused);
+    border-bottom: 0.138vw solid var(--border-unfocused);
     cursor: pointer;
     display: flex;
     flex-direction: column;
