@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header.css">
+</head>
+<body>
+    <header id="header-wrapper">
+        <h1 id="title">Chris King Artistry</h1>
+        <nav id="nav-wrapper">
+            <a class="nav-button">Home</a>
+            <a class="nav-button">Statement</a>
+            <a class="nav-button">Artist Info</a>
+            <a class="nav-button">Paintings</a>
+            <a class="nav-button">Prints</a>
+            <a class="nav-button">Photography & Paint</a>
+            <a class="nav-button">Digital Art</a>
+        </nav>
+    </header>
+
+    <script>
+        /*  SCRIPT TO SHOW WHAT PAGE IS BEING VIEWED  */
+        window.onload = function () {   /* This happens once when the page loads */
+            let i = 0;
+
+            let parentDocument = window.parent.document;
+            const curPage = parentDocument.title;
+            const navWrapper = document.getElementById('nav-wrapper')
+            const pageTitles = ["Home", "Statement", "Info", "Paintings", "Prints", "Photography", "Digital"]
+            while (!curPage.includes(pageTitles[i])) {  /* Loops until it finds what page is being viewed */
+                i++;
+            }
+
+            const nthChild = navWrapper.children[i] /* Sets the id of the curent page to 'cur-page' */
+            nthChild.id = 'cur-page'
+        }
+    </script>
+
+</body>
+</html>

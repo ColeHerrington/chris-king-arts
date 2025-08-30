@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'lato light';
+    src: url('lato/Lato-Light.ttf');
+}
+
+/*  VARIABLES  */
+:root {
+    --background: rgb(248, 244, 241);
+    --border: rgb(65, 65, 65);
+    --border-unfocused: rgb(204, 204, 204);
+    --text: rgb(48, 29, 16);
+    --text-unfocused: rgb(158, 158, 158);
+}
+/*  GENERAL STYLES  */
+* {
+    background-color: var(--background);
+    border-color: var(--border);
+    color: var(--text);
+    font-family: 'lato light';
+    font-size: 1.1vw;
+    margin: 0;
+    padding: 0;
+}
+
+/*  HEADER  */
+#header-wrapper {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 12vw;
+    justify-content: space-evenly;
+    padding-top: 1vw;
+}
+#title {
+    font-size: 1.6vw;
+    letter-spacing: 0.3vw;
+}
+#nav-wrapper {
+    display: flex;
+    gap: 2vw;
+}
+.nav-button {
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+}
+.nav-button:not(#cur-page) {
+    border-color: var(--border-unfocused);
+    color: var(--text-unfocused);
+    transition: 0.4s;
+}
+.nav-button:not(#cur-page):hover {
+    border-color: var(--border);
+    color: var(--text);
+}
