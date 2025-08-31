@@ -1,0 +1,21 @@
+#main-wrapper {
+    background-color: rgb(198, 195, 193);
+    padding: 2vw 4vw;
+}
+#desc-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#desc-image {
+    width: 40vw;
+}
+#text-div {
+    padding-left: 8vw;
+    padding-right: 15vw;
+    padding-bottom: 5vw;
+}
+#desc-title {
+    font-size: 4vw;
+    margin-bottom: 1vw;
+}

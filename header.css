@@ -17,8 +17,8 @@
     gap: 2vw;
 }
 .nav-button {
-    border-bottom: 2px solid;
-    border-top: 2px solid;
+    border-bottom: 0.15vw solid;
+    border-top: 0.15vw solid;
     cursor: pointer;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;

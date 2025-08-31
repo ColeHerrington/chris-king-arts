@@ -39,7 +39,7 @@
 }
 #info-link {
     cursor: pointer;
-    border-bottom: 2px solid var(--border-unfocused);
+    border-bottom: 0.15vw solid var(--border-unfocused);
     font-size: 1vw;
     padding-bottom: 1vw;
     transition: 0.4s;

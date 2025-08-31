@@ -21,7 +21,7 @@
         rgb(222, 199, 245)) 1;
 }
 .main-button {
-    border-bottom: 2px solid var(--border-unfocused);
+    border-bottom: 0.15vw solid var(--border-unfocused);
     cursor: pointer;
     transition: 0.4s;
     width: 18vw;
