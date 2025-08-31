@@ -1,0 +1,49 @@
+/*  VARIABLES  */
+:root {
+    --background: rgb(248, 244, 241);
+    --border: rgb(65, 65, 65);
+    --border-unfocused: rgb(204, 204, 204);
+    --text: rgb(48, 29, 16);
+    --text-unfocused: rgb(158, 158, 158);
+}
+
+#main-wrapper {
+    background-color: rgb(208, 205, 202);
+    padding: 5vw;
+    padding-bottom: 1vw;
+    position: relative;
+    height: 65vw;
+}
+#inner-child {
+    width: 56vw;
+    height: 30vw;
+    object-fit: cover;
+}
+#main-section {
+    position: absolute;
+    top: 10vw;
+    bottom: 1vw;
+    right: 5vw;
+    left: 38vw;
+    padding-left: 8vw;
+    padding-right: 20vw;
+    padding-top: 5vw;
+}
+#title {
+    font-size: 3.5vw;
+    margin-bottom: 2vw;
+}
+#main-text {
+    font-size: 1vw;
+    margin-bottom: 4vw;
+}
+#info-link {
+    cursor: pointer;
+    border-bottom: 2px solid var(--border-unfocused);
+    font-size: 1vw;
+    padding-bottom: 1vw;
+    transition: 0.4s;
+}
+#info-link:hover {
+    border-color: var(--border);
+}

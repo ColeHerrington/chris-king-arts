@@ -1,27 +1,3 @@
-@font-face {
-    font-family: 'lato light';
-    src: url('lato/Lato-Light.ttf');
-}
-
-/*  VARIABLES  */
-:root {
-    --background: rgb(248, 244, 241);
-    --border: rgb(65, 65, 65);
-    --border-unfocused: rgb(204, 204, 204);
-    --text: rgb(48, 29, 16);
-    --text-unfocused: rgb(158, 158, 158);
-}
-/*  GENERAL STYLES  */
-* {
-    background-color: var(--background);
-    border-color: var(--border);
-    color: var(--text);
-    font-family: 'lato light';
-    font-size: 1.1vw;
-    margin: 0;
-    padding: 0;
-}
-
 /*  HEADER  */
 #header-wrapper {
     align-items: center;

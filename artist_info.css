@@ -1,0 +1,48 @@
+#main-wrapper {
+    background-color: rgb(198, 195, 193);
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    gap: 5vw;
+}
+
+h1 {
+    font-size: 2.5vw;
+    margin-bottom: 2vw;
+}
+
+#hello {
+    display: flex;
+    align-items: center;
+}
+#hello div {
+    margin: 0 10vw;
+}
+#hello-image {
+    height: 25vw;
+}
+#hello-title {
+    font-size: 3.5vw;
+    margin-bottom: 2vw;
+}
+#hello-text {
+    margin-bottom: 2vw;
+}
+#insta-link {
+    display: flex;
+    align-items: center;
+}
+
+#my-story {
+    padding: 5vw 15vw;
+}
+#story-title {
+}
+
+#contact {
+    padding: 5vw 15vw;
+}
+#contact-div {
+    display: flex;
+    gap: 10vw;
+}

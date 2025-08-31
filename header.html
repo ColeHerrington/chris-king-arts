@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="general.css"
 </head>
 <body>
     <header id="header-wrapper">
         <h1 id="title">Chris King Artistry</h1>
         <nav id="nav-wrapper">
-            <a class="nav-button">Home</a>
-            <a class="nav-button">Statement</a>
-            <a class="nav-button">Artist Info</a>
-            <a class="nav-button">Paintings</a>
-            <a class="nav-button">Prints</a>
-            <a class="nav-button">Photography & Paint</a>
-            <a class="nav-button">Digital Art</a>
+            <a class="nav-button" onclick="redirect('index.html')">Home</a>
+            <a class="nav-button" onclick="redirect('statement.html')">Statement</a>
+            <a class="nav-button" onclick="redirect('artist_info.html')">Artist Info</a>
+            <a class="nav-button" onclick="redirect('paintings.html')">Paintings</a>
+            <a class="nav-button" onclick="redirect('prints.html')">Prints</a>
+            <a class="nav-button" onclick="redirect('photos.html')">Photography & Paint</a>
+            <a class="nav-button" onclick="redirect('digital.html')">Digital Art</a>
         </nav>
     </header>
 
@@ -34,6 +35,10 @@
 
             const nthChild = navWrapper.children[i] /* Sets the id of the curent page to 'cur-page' */
             nthChild.id = 'cur-page'
+        }
+
+        function redirect(page) {
+            window.parent.location.href = page;
         }
     </script>
 
